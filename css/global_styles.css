@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body,
+.no-margin {
+    margin: 0;
+}
+
+.main-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.row-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    border-radius: 6px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.width-48 {
+    width: 48%;
+}
+
+.btn {
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.cancel {
+    background-color: tomato;
+    color: white;
+}
+
+.submit {
+    background-color: dodgerblue;
+    color: white;
+}

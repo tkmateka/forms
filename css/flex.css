@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+.grey-border {
+    border: 3px solid grey;
+}
+.main-container {
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.header,
+.nav,
+.footer {
+    height: 10%;
+}
+.main-section {
+    height: 70%;
+    display: flex;
+    gap: 3px;
+}
+.content {
+    width: 15%;
+}
+.main-content {
+    flex: 1;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
